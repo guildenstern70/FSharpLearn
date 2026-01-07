@@ -34,6 +34,9 @@ let composedAddAndMultiply (a: int): int =
     let composedFunction = add2 >> multiply3
     composedFunction a
 
-    
-    
-    
+// The pipeline operator |> is used to pass the result of one function as the input to another function.
+// This function takes a list of integers, sorts them, and then prints each item.
+let printSortedList itemsList =
+    let sort (list: int list) = List.sort list
+    let print (list: int list)= List.iter(fun x-> printfn $"item %i{x}") list
+    itemsList |> sort |> print

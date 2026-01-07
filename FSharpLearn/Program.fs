@@ -45,6 +45,7 @@ let testFunctions =
             printfn "Functions test OK"
         else
             printfn $"Functions KO: %i{third}"
+    printSortedList [5; 3; 8; 1; 4]
            
 
 [<EntryPoint>]
