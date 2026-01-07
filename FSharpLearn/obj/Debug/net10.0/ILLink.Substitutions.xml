@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="FSharpLearn">
+    <resource name="FSharpSignatureData.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpOptimizationData.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.FSharpLearn" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.FSharpLearn" action="remove"></resource>
+  </assembly>
+</linker>

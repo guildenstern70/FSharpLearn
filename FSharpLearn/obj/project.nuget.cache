@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4LAGKYnX+gU=",
+  "success": true,
+  "projectFilePath": "/Users/alessio/Documents/Codice/C#/FSharpTrial/FSharpLearn/FSharpLearn.fsproj",
+  "expectedPackageFiles": [
+    "/Users/alessio/.nuget/packages/fsharp.core/10.0.100/fsharp.core.10.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}
