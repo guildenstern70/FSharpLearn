@@ -39,9 +39,13 @@ let testLoops =
 let testFunctions =
     let first = addAndMultiply 2 3 4
     let second = typedAddAndMultiply 2 3 4
+    let third = composedAddAndMultiply 5
     if first = second then
-        printfn "Functions test OK"
-    
+        if third = 21 then
+            printfn "Functions test OK"
+        else
+            printfn $"Functions KO: %i{third}"
+           
 
 [<EntryPoint>]
 let main argv =

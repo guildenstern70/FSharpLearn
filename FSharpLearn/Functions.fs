@@ -24,4 +24,16 @@ let typedAddAndMultiply (a: int) (b: int) (c: int) : int =
     let product = sum * c
     product
     
+// The >> operator is the function composition operator in F#.
+// It takes two functions as input and returns a new function that is the composition of the two.
+// The output of the first function becomes the input of the second function.
+// It applies functions from left to right.
+let composedAddAndMultiply (a: int): int =
+    let add2 a = a + 2
+    let multiply3 a = a * 3 
+    let composedFunction = add2 >> multiply3
+    composedFunction a
+
+    
+    
     
