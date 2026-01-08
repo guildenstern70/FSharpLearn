@@ -9,6 +9,7 @@
         <Compile Include="Conditional.fs" />
         <Compile Include="Loops.fs" />
         <Compile Include="Functions.fs" />
+        <Compile Include="Collections.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
