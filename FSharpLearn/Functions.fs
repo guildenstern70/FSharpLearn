@@ -48,7 +48,7 @@ let printSortedList itemsList =
 // tuple's second element is the current hand.
 // fst gets the first element of the tuple.
 // snd gets the second element of the tuple.
-// The functin returns: the remaining cards in deck, and the current hand.
+// The function returns: the remaining cards in deck, and the current hand.
 let drawCard (tuple: int list * int list) = 
     let deck = fst tuple
     let draw = snd tuple
